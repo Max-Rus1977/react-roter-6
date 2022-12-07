@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-page {
+  padding: 12px 54px;
+  text-align: center;
+  color: #0440ea;
+  font-size: 64px;
+} 
+
+.title-page span {
+  font-size: 145px;
+  color: red;
+}
+
+.box-text {
+  width: 60%;
+  padding: 47px 54px;
+  background-color: rgb(216 226 235 / 94%);
+  border-radius: 10px;
+}
+
+.text-page {
+  color: #06216e;
+  font-size: 20px;
+  border-radius: 10px;
+} 
+
+.slag-page {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.indent::first-letter {
+  margin-left: 10px;
+}
+
+.bg-home {
+  background-image: url('./img/hom-img.jpg');
+}
+
+.bg-about {
+  background-image: url('./img/about-img.jpg');
+}
+
+.bg-posts {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url('./img/posts.jpg');
+}
+
+.bg-not {
+  background-image: url('./img/not-found.jpg');
+}
+
+/* .active {
+  background-color: #6023b3;
+  color: #fff;
+}
+
+li .active:hover {
+  background-color: #6023b3;
+  color: #fff;
+} */
