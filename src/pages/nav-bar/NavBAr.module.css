@@ -16,29 +16,6 @@
   margin-top: 2px;
 }
 
-.navLink  {
-  display: block;
-  padding: 6px 10px;
-  font-size: 20px;
-  border-radius: 5px;
-  transition: 0.4s;
-}
-
-.navLink:hover {
-  background-color: #baa2db;
-  color: #fdf0ff;
-}
-
-.activeLink {
-  background-color: #6023b3;
-  color: #fff;
-}
-
-.activeLink:hover {
-  background-color: #6023b3;
-  color: #fff;
-}
-
 .loginLink {
   display: block;
   margin-top: 15px;
