@@ -70,18 +70,36 @@ a {
   top: 0;
   left: 0;
   background-image: url('./img/posts.jpg');
+  z-index: -99;
 }
 
 .bg-not {
   background-image: url('./img/not-found.jpg');
 }
 
-/* .active {
-  background-color: #6023b3;
-  color: #fff;
+.box-posts {
+  width: 70%;
+  margin: 45px auto;
+  padding-bottom: 30px;
+  background-color: rgb(240 238 253 / 94%);
+  border-radius: 8px;
 }
 
-li .active:hover {
-  background-color: #6023b3;
-  color: #fff;
-} */
+.title-posts-page {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 45px;
+  color: #0440ea;
+}
+
+.link-add-post {
+  position: fixed;
+  top: 5%;
+  right: 2%;
+  padding: 10px 15px;
+  background-color: rgb(240 248 255 / 72%);
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #6023b3;
+  border-radius: 5px;
+}

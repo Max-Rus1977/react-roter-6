@@ -1,0 +1,11 @@
+.wrapPost {
+  width: 80%;
+  margin: 17px auto 0 auto;
+  padding: 16px 25px;
+  border: 1px solid #2e04b3;
+  border-radius: 8px;
+}
+
+.wrapPost p {
+  margin-top: 10px;
+}

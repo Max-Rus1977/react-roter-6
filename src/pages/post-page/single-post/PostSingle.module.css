@@ -1,0 +1,30 @@
+.boxSinglePost {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.boxSinglePost h2 {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.boxSinglePost h3 {
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.boxSinglePost p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.boxLink {
+  float: right;
+  margin-top: 15px;
+}
+
+.boxLink a {
+  font-size: 20px;
+  color: #7612b5;
+}
