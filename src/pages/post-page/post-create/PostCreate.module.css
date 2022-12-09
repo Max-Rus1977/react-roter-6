@@ -18,13 +18,26 @@
   border-radius: 5px;
 }
 
+.boxBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 30px auto 0 auto;
+}
+
 .box button {
   float: right;
-  margin: 15px 15% 0 0;
   padding: 7px 33px;
   background-color: aliceblue;
   font-size: 20px;
   font-weight: bold;
   border-radius: 7px;
+  cursor: pointer;
+}
+
+.backArrow {
+  float: left;
+  transform: rotate(180deg);
 }
 

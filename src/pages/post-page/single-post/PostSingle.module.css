@@ -19,6 +19,13 @@
   font-size: 20px;
 }
 
+.boxBtnLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
 .boxLink {
   float: right;
   margin-top: 15px;
@@ -28,3 +35,24 @@
   font-size: 20px;
   color: #7612b5;
 }
+
+.rightArrow {
+  float: left;
+  transform: rotate(180deg);
+}
+
+.btnHom {
+  position: fixed;
+  top: 5%;
+  right: 2%;
+  padding: 7px 26px;
+  text-align: center;
+  background-color: #f5f8ff;
+  color: #551a8b;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #6023b3;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

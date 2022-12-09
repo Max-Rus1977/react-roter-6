@@ -1,6 +1,11 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom'
 
 const HomePage = () => {
+
+  const thisLocation = useLocation()
+  console.log(thisLocation);
+
   return (
     <div className='bg-page bg-home'>
       <div className='box-text'>

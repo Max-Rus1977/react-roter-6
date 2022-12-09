@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 
 import Layout from './pages/Layout'
 import HomePage from './pages/HomePage'
@@ -22,6 +22,7 @@ function App() {
           <Route path='posts/:id/edit' element={<PostEdit />} />
           <Route path='posts/create' element={<PostCreate />} />
           <Route path='about' element={<AboutPage />} />
+          <Route path='about-us' element={<Navigate to='/about' replace />} />
           <Route path='*' element={<NotFoundPage />} />
         </Route>
       </Routes>
