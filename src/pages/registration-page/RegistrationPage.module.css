@@ -14,6 +14,7 @@
   width: 70%;
   min-height: 30px;
   margin: 15px auto;
+  padding: 7px 15px;
   border: 1px solid #712db1;
   border-radius: 5px;
 }
@@ -40,15 +41,14 @@
   float: left;
   transform: rotate(180deg);
 }
-/* 
-.BoxBtnOut {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+
+.box p  {
+  width: 70%;
+  margin: 30px auto;
+  font-size: 20px;
 }
 
-.BoxBtnOut .btnOut {
-  background-color: red;
-  color: #fff;
-} */
+.box p span {
+  font-weight: bold;
+}
 
